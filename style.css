@@ -1,0 +1,307 @@
+body{
+    background-color: #edf2f6;
+    margin:0;
+    padding:0;
+    font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: .812rem;
+    color: #888da8;
+}
+.wrapper{
+    width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    color:#888da8;
+}
+
+.profile-info{
+    width: 19%;
+    position: absolute;
+    background: #ffffff;
+    color: black;
+}
+
+
+.post{
+    width: 45%;
+    left: 25%;
+    background: #ffffff;
+    color: black;
+    position: absolute;
+}
+.post-inner{
+    width:90%;
+    padding: 5%;
+    position: relative;
+}
+.post-img{
+    width:20%;
+}
+.post-img-name{
+    position: absolute;
+    left: 14%;
+    top: 28%;
+    color:#888da8;
+}
+.post-middle{
+    width:60%;
+    position: absolute;
+}
+.post-vr{
+    height:10%;
+}
+.h4{
+    font-weight:bold;
+    color:#888da8;
+}
+
+
+.post-dots{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+
+.post-desc{
+    width: 90%;
+    padding: 2% 5%;
+    position: relative;
+    background: #fff;
+    color:#888da8;
+}
+
+.fa-ellipsis-h{
+    color:#888da8;
+}
+
+.post-sub{
+    width:80%;
+}
+hr { 
+    display: block;
+    margin-top: 6%;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.8px;
+    background: #888da8;
+} 
+
+
+.post-line{
+    height:5%;
+    color:#888da8;
+    width: 90%;
+    padding:0 5%;
+}
+
+.outer{
+    margin: 4% 5%;
+    position: relative;
+}
+.post-outer{
+    position: relative;
+    left: 5%;
+    margin: 2% 0;
+    color:#888da8;
+}
+.post-image-like{
+    width: 20%;
+    position: absolute;
+    left: 17%;
+    bottom:4%;
+}
+.post-image-likedes{
+    position: absolute;
+    bottom: 2%;
+    left: 30%;
+    display: inline;
+    font-size: 10px;
+    color:#888da8;
+}
+
+.post-img1{
+    border-radius: 50%;
+    width: 30%;
+}
+.post-img2{
+    border-radius: 50%;
+    position: absolute;
+    left: 12%;
+    width: 30%;
+}
+.post-img3{
+    border-radius: 50%;
+    position: absolute;
+    left: 24%;
+    width: 30%;
+}
+.post-comment{
+    position: absolute;
+    right: 25%;
+    bottom: 30%;
+}
+.oneAndOnlyDiv {
+    height: 13px;
+    width: 13px;
+    border: 2px solid #888da8;
+    background: white;
+    position: relative;
+  }
+.oneAndOnlyDiv:before {
+    content: "";
+    position: absolute;
+    left: -2px;
+    width: 0;
+    border-top: 8px solid black;
+    border-left: 0px solid transparent;
+    border-right: 7px solid transparent;
+    top: 14px;
+}
+
+#oneandonly{
+    height: 10px;
+    width: 10px;
+    border: 2px solid #888da8;
+    background: white;
+    position: absolute;
+    bottom: 32%;
+    left: 27%;
+}
+#oneandonly:before{
+    position: absolute;
+    left: -2px;
+    width: 0;
+    border-top: 5px solid black;
+    border-left: 0px solid transparent;
+    border-right: 5px solid transparent;
+    top: 12px;
+
+}
+
+
+hr.a{
+    display: block;
+    margin-top: 15%;
+    margin-bottom: 0.3em;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: inset;
+    border-width: 1px;
+    background: grey;
+}
+hr.b{
+    display: block;
+    margin-top: 28%;
+    margin-bottom: 0.3em;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: inset;
+    border-width: 1px;
+    background: grey;
+}
+
+.post-share{
+    position: absolute;
+    right: 10%;
+    bottom: 30%;
+    color:#888da8;
+}
+
+.post-side{
+    position: absolute;
+    right: 28%;
+    margin-top: 2%;
+}
+.post-side-1{
+    background:#888da8;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+.post-side-1:hover{
+    background:#ffc923;
+}
+
+.fa-heart-o{
+    color:#888da8;
+    font-size:20px;
+}
+.fa-heart-o:before{
+    font-size:25px;
+}
+.fa-trophy{
+    color:white;
+    position: absolute;
+    left: 15%;
+    top:4%;
+}
+.fa-trophy:before {
+    content: "\f091";
+    font-size: 20px;
+    position: absolute;
+    top: 4%;
+    left: 9%;
+}
+.post-side-2{
+    background: #888da8;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 50%;
+}
+
+.post-side-2:hover{
+    background:#ff5e3a;
+}
+#post-side-heart{
+    
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+
+}
+#post-side-heart:before {
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 9%;
+}
+.post-side-3{
+    background: #888da8;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 50%;
+}
+.post-side-3:hover{
+    background:#ff5e3a;
+}
+.post-side-4{
+    background: #888da8;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 50%;
+}
+#post-side-exchange{
+    color: white;
+    position: absolute;
+    
+    bottom: 5%;
+    left: 28%;
+}
+.post-side-4:hover{
+    background:#ff5e3a;
+}
+.photo-gallery{
+    width: 20%;
+    background: #ffffff;
+    color: black;
+    position: absolute;
+    right: 3%;
+}
