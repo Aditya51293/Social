@@ -8,9 +8,89 @@ body{
     font-size: .815rem;
     color: #888da8;
 }
+
+.top{
+    width:100%;
+    background: #000;
+}
+.logo{
+    background: #ff5e3a;
+    width:3%;
+    padding:15px;
+}
+.s1{
+    position: absolute;
+    top:1%;
+    left:7%;
+}
+h3{
+    color:white;
+    font-size: 17px;
+}
+.friends{
+    position: absolute;
+    right: 34%;
+    top: 5%;
+    color:white;
+    text-decoration: none;
+}
+.top-ul{
+    position: absolute;
+
+
+    top: 0%;
+    right: 17%;
+}
+
+
+.top-ul ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-ul li{
+    display: inline-block;
+    padding: 0 30px;
+}
+
+
+.left{
+    width:3%;
+    background: #fff;
+}
+
+.profile-auth{
+    position: absolute;
+    right: 16%;
+    top: 4%;
+}
+
+#fa-smile{
+    position: relative;
+    margin-top: 25px;
+}
+#fa-comment{
+    color: white;
+    margin-top: 4%;
+    position: absolute;
+    right: 56%;
+}
+.fa-bolt{
+    color: white;
+    position: absolute;
+    right: 37%;
+    font-size: 20px !important;
+    bottom: 5%;
+}
+.search{
+    position: absolute;
+    left:30%;
+    top:0%;
+}
 .wrapper{
     width: 1110px;
-    margin: 0 auto;
+    margin: 50px auto;
     position: relative;
     color:#888da8;
 }
@@ -28,10 +108,70 @@ body{
     padding: 20px 0;
 }
 
-.pic{
-    
-    
+.pro-extras{
+    position: absolute;
+    right: 7%;
+    bottom: 30%;
 }
+
+
+.pro-extras ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.pro-extras li{
+    display: inline-block;
+    padding: 0 30px;
+}
+.c1{
+    position: absolute;
+    display: block;
+    width:4em;
+    height:4em;
+    border-radius:50px;
+    color:#fff;
+    background:#38a9ff;
+}
+.c2{
+    position: absolute;
+    display: block;
+    width:4em;
+    height:4em;
+    border-radius:50px;
+    color:#fff;
+    background:#7c5ac2;
+}
+.c3{
+    position: absolute;
+    display: block;
+    width:4em;
+    height:4em;
+    border-radius:50px;
+    color:#fff;
+    background:#ff5e3a;
+}
+.fa-smile{
+    color:#fff;
+    text-align: center;
+    position: absolute;
+    bottom:25%;
+    right:29%;
+    font-size:20px;
+}
+.fa-comment-alt{
+    position: absolute;
+    top: 35%;
+    right: 30%;
+    font-size: 20px;
+}
+.fa-gear{
+    position: absolute;
+    bottom:26%;
+    right:31%;
+    font-size: 20px !important;
+}
+
 .pro-img{
     width:100%;
     height:359px;
@@ -151,7 +291,25 @@ body{
     right: 10%;
     top: 40%;
 }
-
+.search-text{
+    height: 64px;
+    width: 340px;
+    color: #fff;
+    background: black;
+    border: solid grey 1px;
+    font-size: 18px;
+}
+.search-button{
+    position: absolute;
+    background: black;
+    border: 1px solid grey;
+    height: 100%;
+    width: 40px;
+}
+.fa-search{
+    color: white;
+    font-size: 18px;
+}
 .post-desc{
     width: 90%;
     padding: 2% 5%;
